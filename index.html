@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTM | Developer & Minecraft Specialist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Intro Opening Animation Overlay -->
+    <div id="intro-overlay" class="intro-overlay" aria-hidden="false">
+        <div class="intro-decor" aria-hidden="true">
+            <div class="intro-ring"></div>
+            <div class="intro-scan"></div>
+        </div>
+        <div class="intro-inner">
+            <img src="assets/rtm-logo.png" alt="RTM Logo" class="intro-logo">
+            <h1 class="intro-title">RTM</h1>
+            <p class="intro-sub">Developer · Minecraft · Gaming</p>
+            <div class="intro-bars" aria-hidden="true">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                RTM
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="accent">RTM</span>
+                </h1>
+                <p class="hero-subtitle">Minecraft Developer & Full-Stack Engineer</p>
+                <p class="hero-desc">Building immersive experiences with Java, JavaScript, TypeScript, and Python</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary" onclick="scrollToSection('projects')">View My Projects</button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">Contact Me</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="assets/rtm-logo.png" alt="RTM Logo" class="rtm-logo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm RTM, a passionate developer specializing in Minecraft development and full-stack engineering. 
+                        With a strong background in multiple programming languages and frameworks, I create robust solutions 
+                        for complex technical challenges.
+                    </p>
+                    <p>
+                        Currently working with <strong>PaleEvents</strong> and <strong>ODIESSA</strong>, where I focus on Minecraft 
+                        development and building scalable applications. When not coding, I'm usually playing Minecraft or Overwatch, 
+                        always exploring new technologies and gaming experiences.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">7+</span>
+                            <span class="stat-label">Languages Known</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Companies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="interests">
+                        <div class="interest-card">
+                            <i class="fas fa-cube"></i>
+                            <p>Minecraft Dev</p>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fas fa-gamepad"></i>
+                            <p>Gaming</p>
+                        </div>
+                        <div class="interest-card">
+                            <i class="fas fa-code"></i>
+                            <p>Coding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-cube"></i> Game Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Minecraft</span>
+                        <span class="skill-tag">Plugin Dev</span>
+                        <span class="skill-tag">Bukkit/Spigot</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Web Development</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-wrench"></i> Programming Languages</h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C#</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Minecraft Developer</h3>
+                        <p class="company">PaleEvents | Current</p>
+                        <p>
+                            Leading Minecraft development initiatives with a focus on creating innovative plugins and custom server solutions. 
+                            Utilizing Java and Spigot API to build scalable game experiences for thousands of players.
+                        </p>
+                        <div class="tech-stack">
+                            <span>Java</span>
+                            <span>Minecraft</span>
+                            <span>Plugin Dev</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Full Stack Developer</h3>
+                        <p class="company">ODIESSA | Current</p>
+                        <p>
+                            Developing full-stack applications with JavaScript, TypeScript, and Python. 
+                            Building robust backend systems and responsive user interfaces for various projects.
+                        </p>
+                        <div class="tech-stack">
+                            <span>TypeScript</span>
+                            <span>JavaScript</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Multi-Language Developer</h3>
+                        <p class="company">Independent Projects</p>
+                        <p>
+                            Working on diverse projects utilizing C, C++, C#, and other languages. 
+                            Continuously learning and expanding technical expertise across multiple programming paradigms.
+                        </p>
+                        <div class="tech-stack">
+                            <span>C</span>
+                            <span>C++</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CivEventPlugin-PaleEvents</h3>
+                        <p>A Minecraft Bukkit/Spigot plugin for nation-based events where players join civilizations, compete in structured events, track kills and progress, and engage in team warfare.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spigot</span>
+                            <span>Events</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/CivEventPlugin-PaleEvents-" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CoreProtect</h3>
+                        <p>A Forked blazing fast data logging and anti-griefing tool for Minecraft servers. Forked from PlayPro/CoreProtect for enhanced performance.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Data Logging</span>
+                            <span>Anti-Grief</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/CoreProtect" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>WorldQueue</h3>
+                        <p>A lightweight Minecraft server plugin for Spigot/Paper that manages duel queues, kit loading, and seamless world transitions.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Spigot</span>
+                            <span>Queue System</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/WorldQueue" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Staff-System</h3>
+                        <p>A modern Paper 1.21 staff utility plugin featuring GUI player inspection, vanish toggle, freeze system, staff mode tools, and staff chat.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Paper</span>
+                            <span>Admin Tools</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/Staff-System" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ContextPerks</h3>
+                        <p>A PaperMC plugin that integrates with LuckPerks to provide rank-based perks such as multiple Homes, configurable teleport cooldowns, custom badges, and flight access.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>LuckPerks</span>
+                            <span>Perks System</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/ContextPerks" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chat-Reporter</h3>
+                        <p>A lightweight Paper 1.21+ plugin that lets players report others with /report, logs recent chat, and notifies staff in-game with proper permissions.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Paper</span>
+                            <span>Reporting</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/Chat-Reporter" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Hide-n-Seek</h3>
+                        <p>A simple Minecraft Hide & Seek plugin inspired by Hypixel-style gameplay, featuring basic game flow, block selection, scoreboards, and GUI support.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Game Mode</span>
+                            <span>Gameplay</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/Hide-n-Seek" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MongoDB-Fetcher-Server-Side</h3>
+                        <p>A lightweight Paper 1.21.11 plugin that connects to MongoDB and lets staff view, update, and track player punishment counts in-game.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>MongoDB</span>
+                            <span>Paper</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/MongoDB-Fetcher-Server-Side" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>MongoDB-Fetcher-Client-Side</h3>
+                        <p>Fabric client-side Minecraft 1.21.11 mod that adds /info &lt;name&gt; to look up a player's region and tier from a MongoDB collection and display it in chat.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Fabric Mod</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/MongoDB-Fetcher-Client-Side-" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Localhost-MC-Server-Console</h3>
+                        <p>An executable that essentially replicates what you would get if you bought a server hosting service, enabling local Minecraft server management.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Server Console</span>
+                            <span>Management</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/Localhost-MC-Server-Console" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ModMail</h3>
+                        <p>A modern Discord ModMail bot that streamlines private communication between users and moderators with threaded tickets, logging, and role-based permissions.</p>
+                        <div class="project-tags">
+                            <span>JavaScript</span>
+                            <span>Discord Bot</span>
+                            <span>Communication</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/ModMail" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Anti-DDOS</h3>
+                        <p>A Windows PowerShell security tool with a graphical dashboard that monitors inbound TCP connection activity and temporarily blocks source IPs exceeding configured thresholds.</p>
+                        <div class="project-tags">
+                            <span>PowerShell</span>
+                            <span>Security</span>
+                            <span>Network Monitoring</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/Anti-DDOS" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Voca</h3>
+                        <p>An open-source AAC (Augmentative and Alternative Communication) system that helps non-verbal users communicate using text-to-speech and customizable phrases.</p>
+                        <div class="project-tags">
+                            <span>C#</span>
+                            <span>Accessibility</span>
+                            <span>Text-to-Speech</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/E-Voca" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-image">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>VanillaGuard</h3>
+                        <p>A Minecraft security and protection plugin for vanilla servers. Provides essential protection and anti-cheat capabilities for Minecraft server administrators.</p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>Security</span>
+                            <span>Protection</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/RTM-UK/VanillaGuard" class="link-btn"><i class="fas fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">Have a project or collaboration in mind? Reach out!</p>
+            
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>rtmssinternational@gmail.com
+</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-gamepad"></i>
+                        <div>
+                            <h4>Interests</h4>
+                            <p>Minecraft • Overwatch • Coding</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-building"></i>
+                        <div>
+                            <h4>Companies</h4>
+                            <p>PaleEvents • ODIESSA</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/RTM-UK" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://discord.com/users/962457738959527996" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Discord"><i class="fab fa-discord"></i></a>
+                        <a href="https://www.youtube.com/@Skeletica123" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2026 RTM. All rights reserved.</p>
+            <p>Built with love<span class="heart"></span> by RTM</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
